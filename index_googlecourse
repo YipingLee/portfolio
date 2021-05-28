@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Yiping Lee's Portfolio</title>		
+        <meta name="description" content="Yiping Lee's Design Portfolio">
+        <meta name="keywords" content="Yiping, Yiping Lee, Design Portfolio">
+        <meta name="author" content="Muhammad Morshed">
+        <meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!-- CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+		<link rel="shortcut icon" href="img/1.ico">
+    </head>
+	
+    <body id="body">
+		<!-- loading picture -->
+		<div id="preloader">
+			<img src="img/preloader.gif" alt="Preloader">
+		</div>
+
+        <!-- Fixed Navigation -->
+        <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<font color="#fff"!important;></font>
+						<h4 id="logo">Yiping Lee</h4> 
+					</a>
+                </div>
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#features">About</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <!--<li><a href="mailto:a26626626@gmail.com">Contact</a></li>-->
+                        </li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+            </div>
+        </header>
+		
+        <!-- Home  -->
+		<!-- slider -->
+		<section id="slider">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">	
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<!-- single slide -->
+					<div class="item active" style="background-image: url(img/banner.jpg);">
+						<div class="carousel-caption">
+							<h2 data-wow-duration="100ms" data-wow-delay="500ms" class="wow bounceInDown animated">Design<span> For life</span>!</h2>
+							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated">The<span class="color"> power<srtong></span> of imagination makes us infinite.</h3>
+							<!--<p data-wow-duration="1000ms" class="wow slideInRight animated">The power of imagination makes us infinite.</p>
+							
+							<!--<ul class="social-links text-center">
+								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+							</ul>-->
+						</div>
+					</div>		
+				</div>
+			</div>
+		</section>
+		
+		<section id="features" class="features">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+						<img src="img/circle.png" width="150">
+						<h2>About</h2>
+						<div class="devider"><!-- <i class="fa fa-heart-o fa-lg"></i> --></div>
+					</div>
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<!--<i class="fa fa-github fa-2x"></i>-->
+							</div>
+							<div class="service-desc">
+								<h3>Resume</h3>
+									<a href="resume_en.pdf" download="resume_en.pdf"  class="download">English</a></br>
+								<br>
+								<br>
+								<h3>Contact</h3>									
+									<p>
+									<a href="mailto:yiping.lee012@gmail.com" Class="download">yiping.lee012@gmail.com</a></font><br>
+									+886 953857895
+									</p>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+					
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<!--<i class="fa fa-pencil fa-2x"></i>-->
+							</div>
+							
+							<div class="service-desc">
+								<h3>Experience</h3>
+								<p>
+									<strong>Mar. 2019 - Aug. 2019<br>
+									TCI Co., Ltd.<br></strong>
+									Desinger<br>
+									<br>
+									<strong>Aug. 2018 - Jan. 2019<br>
+									Yaobang Co.<br></strong>
+									Senior Specialist<br>
+									<br>
+									<strong>Apr. 2016 - Apr. 2018<br>
+									Intention Co.<br></strong>
+									Desinger<br>
+									<br>
+									<strong>Nov. 2015 - Mar. 2016<br>
+									BRIGHT FORCE Human Resource Supplier <br></strong>
+									Specialist <br>
+									<br>
+									<strong>Feb. 2013 - May 2015<br>
+									International Copper Association - Taiwan Office <br></strong>
+									Specialist <br>
+
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+					
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<!--<i class="fa fa-bullhorn fa-2x"></i>-->
+							</div>
+							
+							<div class="service-desc">
+								<h3>Skills</h3>
+								<!--<p>Photoshop, Illustrator, InDesign, Flash, ProE, Alias,  Showcase, Cinema 4D, KeyShot</p>-->
+								<img src="img/icon/PS.png" width="40" height="40">
+								<img src="img/icon/AI.png" width="40" height="40">
+								<img src="img/icon/IN.png" width="40" height="40">
+								<img src="img/icon/FL.png" width="40" height="40">
+								<img src="img/icon/proe.png" width="40" height="40">
+								<img src="img/icon/alias.png" width="40" height="40">
+								<img src="img/icon/showcase.png" width="40" height="40">
+								<img src="img/icon/c4d.png" width="40" height="40">
+								<img src="img/icon/ks.png" width="40" height="40">
+								<img src="img/icon/sublime.png" width="40" height="40">
+								<br>
+								<br>											
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+						
+				</div>
+			</div>
+		</section>
+        <!-- End Features -->
+		
+        <!-- Works -->
+		<section id="works" class="works clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="sec-title text-center">
+						<h2>Works</h2>
+						<div class="devider"><i class=""></i></div>
+					</div>
+					<div class="sec-sub-title text-center">
+					</div>
+					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+						<ul class="text-center">
+							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
+							<li><a href="javascript:;" data-filter=".branding" class="filter">Project</a></li>
+							<li><a href="javascript:;" data-filter=".web" class="filter">Graphic Design</a></li>
+							<li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
+							<li><a href="javascript:;" data-filter=".logo-design" class="filter">Others</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--project -->
+			<div class="project-wrapper">
+				<!--
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/TCI/quinoa noodles_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/TCI/quinoa noodles.jpg">
+						<figcaption class="overlay">
+							<h4>Quinoa Noodles</h4>
+							<h6>Ecommerce Product Page</h6>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/TCI/dental floss stick_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/TCI/dental floss stick.jpg">
+						<figcaption class="overlay">
+							<h4>Dental Floss Stick</h4>
+							<h6>Ecommerce Product Page</h6>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/TCI/sanitary pad_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/TCI/sanitary pad.jpg">
+						<figcaption class="overlay">
+							<h4>Sanitary Pad</h4>
+							<h6>Ecommerce Product Page</h6>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/TCI/tciliving_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/TCI/bn.png">
+						<figcaption class="overlay">
+							<h4>Banners</h4>
+							<h6>Ecommerce Banner</h6>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>				
+				-->
+
+				<figure class="mix work-item web">
+					<img src="img/course/1.jpg" alt="">
+					<a class="fancybox" rel="works" title="" href="img/course/1-1.jpg">
+						<figcaption class="overlay">
+							<h4>Food Delivery App</h4>
+							<h6>Google course</h6>
+							<p>UX design</p>
+						</figcaption>
+					</a>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/course/2.jpg" alt="">
+					<a class="fancybox" rel="works" title="" href="img/course/2-2.jpg">
+						<figcaption class="overlay">
+							<h4>Equipment company official website</h4>
+							<h6>Google course</h6>
+							<p>UX design</p>
+						</figcaption>
+					</a>
+				</figure>
+				
+				<figure class="mix work-item web">
+					<img src="img/course/3.jpg" alt="">
+					<a class="fancybox" rel="works" title="" href="img/course/3-3.jpg">
+						<figcaption class="overlay">
+							<h4>Organization offical website</h4>
+							<h6>Google course</h6>
+							<p>UX design</p>
+						</figcaption>
+					</a>
+				</figure>	
+				
+				
+				<figure class="mix work-item logo-design">
+					<img src="img/works/project/deerdogs/logo.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/project/deerdogs/deerdogs.png">
+						<figcaption class="overlay">
+							<h4>DEERDOGS</h4>
+							<h6>Official Website</h6>
+							<!--<a href="https://www.deerdogs.com.tw" target="_blank"><h6>www.deerdogs.com.tw</h6></a>-->
+							<p>Website Design</p>
+						</figcaption>
+					</a>
+				</figure>
+				
+				<figure class="mix work-item branding">
+					<img src="img/works/project/sixi6/logo.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/project/sixi6/sixi6.png">
+						<figcaption class="overlay">
+							<h4>SIXI6</h4>
+							<h6>Cosmetic Brand</h6>
+							<h6>Branding</h6>
+							<p>Project</p>
+						</figcaption>
+					</a>
+				</figure>
+				<!--
+				<figure class="mix work-item branding">
+					<img src="img/works/project/Atarapa/logo.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/project/Atarapa/atarapa.png">
+						<figcaption class="overlay">
+							<h4>Atarapa</h4>
+							<h6>Sun Control Film</h6>
+							<h6>Brochure and Booth Design</h6>
+							<p>Project</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item branding">
+					<img src="img/works/project/oo_matcher/logo.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/project/oo_matcher/1.jpg">
+						<figcaption class="overlay">
+							<h4>OO Matcher</h4>
+							<h6>Travel App</h6>
+							<h6>Mock-up</h6>
+							<p>Project</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item branding">
+					<img src="img/works/project/pb/logo.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/project/pb/pb.png">
+						<figcaption class="overlay">
+							<h4>Pink Bite</h4>
+							<h6>Shopping Website</h6>
+							<p>Project</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/Calendar_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/Calendar.png">
+						<figcaption class="overlay">
+							<h4>Copper Calendar</h4>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/standees_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/standees.png">
+						<figcaption class="overlay">
+							<h4>Marketing Standees</h4>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/CMR1_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/CMR.png">
+						<figcaption class="overlay">
+							<h4>Copper Rotor Leaflet</h4>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/用線安全_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/用線安全.png">
+						<figcaption class="overlay">
+							<h4>Building Wire & Cable Leaflet</h4>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item web">
+					<img src="img/works/graphice_design/amc_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/graphice_design/AMC.png">
+						<figcaption class="overlay">
+							<h4>Antimicrobial Copper Brochure</h4>
+							<p>Graphic Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item photography">
+					<img src="img/works/project/sixi6/cp_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/project/sixi6/cp.png"">
+						<figcaption class="overlay">
+							<h4>Situation Photography</h4>
+							<p>Photography</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item photography">
+					<img src="img/works/Photography/p_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/Photography/1.png"">
+						<figcaption class="overlay">
+							<h4>Product Photography</h4>
+							<p>Photography</p>
+						</figcaption>
+					</a>
+				</figure>
+				
+				<figure class="mix work-item photography">
+					<img src="img/works/Photography/H_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/Photography/H.png"">
+						<figcaption class="overlay">
+							<h4>Portrait Photography</h4>
+							<p>Photography</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item photography">
+					<img src="img/works/Photography/L_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/Photography/L.png"">
+						<figcaption class="overlay">
+							<h4>Street Photography</h4>
+							<p>Photography</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item logo-design">
+					<img src="img/works/others/Automation_Exhibition_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/others/Automation_Exhibition-1.jpg"">
+						<figcaption class="overlay">
+							<h4>Taipei Int'l Industrial Automation Exhibition</h4>
+							<p>Booth Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item logo-design">
+					<img src="img/works/others/Int'l Industrial Automation_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/others/Int'l Industrial Automation-1.jpg"">
+						<figcaption class="overlay">
+							<h4>Taiwan Interior and Material's Exhibition</h4>
+							<p>Showcase and Booth Design</p>
+						</figcaption>
+					</a>
+				</figure>
+
+				<figure class="mix work-item logo-design">
+					<img src="img/works/others/table_cover.png" alt="">
+					<a class="fancybox" rel="works" title="" href="img/works/others/table-1.jpg"">
+						<figcaption class="overlay">
+							<h4>Sectional Copper Table</h4>
+							<p>Furniture Design</p>
+						</figcaption>
+					</a>
+				</figure>				
+
+				<!-- <figure class="mix work-item logo-design">
+					<img src="img/works/others/展示台_cover.png" alt="">
+					<figcaption class="overlay">
+						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/others/展示台1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<h4>手工展示台</h4>
+						<h6>展示台設計</h6>
+						<p>Others</p>
+					</figcaption>
+				</figure>
+				===-->
+			</div>
+		</section>
+
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="copyright text-center">
+							Copyright © 2018 Yiping Lee <br>
+							<!-- All Rights Reserved. Designed & Developed by Yiping Lee</a>-->
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- jquery.mixitup.min -->
+        <script src="js/jquery.mixitup.min.js"></script>
+		<!-- jquery.parallax -->
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- jquery.countTo -->
+        <script src="js/jquery-countTo.js"></script>
+		<!-- jquery.appear -->
+        <script src="js/jquery.appear.js"></script>
+		<!-- Contact form validation -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+		<!-- Google Map 
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+		<!-- jquery easing -->
+        <script src="js/wow.min.js"></script>
+		<script>
+			var wow = new WOW ({
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       120,          // distance to the element when triggering the animation (default is 0)
+				mobile:       false,       // trigger animations on mobile devices (default is true)
+				live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script> 
+		<!-- Custom Functions -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
